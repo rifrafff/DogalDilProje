@@ -1,5 +1,6 @@
 # Konu:
 Sınıflandırma ve bir tane dil modeli kullanılmıştır. Çalışma mantıkları sınıflandırma modelleri kullanıcının yazdığı metinden yola çıkarak konuya uygun film bulmaya çalışır. Dil modeli yine aynı şekilde kullanıcıdan alınan metinden yola çıkarak ve veri setinin içindeki konu kısmını kullanarak belirttiğimiz karakter sayısında bize bir cümle oluşturur.
+
 ### Kullanılan Kütüphaneler
 Verdiğiniz kod örnekleri aşağıdaki kütüphaneleri ve modülleri kullanmaktadır:
 1.pandas
@@ -18,6 +19,7 @@ Verdiğiniz kod örnekleri aşağıdaki kütüphaneleri ve modülleri kullanmakt
 14.classification_report (sklearn)
 15.accuracy_score (sklearn)
 16.SimpleImputer (sklearn)
+
 ### Veri Seti'nin Oluşturulması
 Veri seti film sitesinden çekilen film adı, türü ve konusundan oluşmaktadır. Veri setindeki verileri elde edebilmek için öncelikle siteden filmlerin linklerini çektik ve daha sonra o linklere girerek filmlerin adını, türünü ve konusunu çekerek veri setimizi oluşturduk. Sitenin film arşivinde buluna bütün filmlerin verilerini çektik çünkü ve veri setimizin boyutu arttıkça modellerimizin daha başarılı olacağını varsaydık. Veri setimizde 2913 filmin verisi bulunuyor ve bir film birden fazla türe sahip olabiliyor.
 Veri setindeki sütunlar aşağıdaki gibidir:
