@@ -23,7 +23,7 @@ Verdiğiniz kod örnekleri aşağıdaki kütüphaneleri ve modülleri kullanmakt
 ### Veri Seti'nin Oluşturulması
 Veri seti film sitesinden çekilen film adı, türü ve konusundan oluşmaktadır. Veri setindeki verileri elde edebilmek için öncelikle siteden filmlerin linklerini çektik ve daha sonra o linklere girerek filmlerin adını, türünü ve konusunu çekerek veri setimizi oluşturduk. Sitenin film arşivinde buluna bütün filmlerin verilerini çektik çünkü ve veri setimizin boyutu arttıkça modellerimizin daha başarılı olacağını varsaydık. Veri setimizde 2913 filmin verisi bulunuyor ve bir film birden fazla türe sahip olabiliyor.
 Veri setindeki sütunlar aşağıdaki gibidir:
-Film Adı	Türler	Konu
+### Film Adı	Türler	Konu
 ![image](https://github.com/rifrafff/DogalDilIsleme-Proje/assets/106619895/1bc32c44-9741-43b0-8c2d-29704ffbd21b)
 
  
